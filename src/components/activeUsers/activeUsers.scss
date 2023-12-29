@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        .count{
+            color: green;
+        }
+    }
+
+    .users-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .user{
+            display: flex;
+            flex-direction: row;
+            height: 40px;
+            width: 100%;
+            align-items: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.037);
+            border-radius: 5px;
+        }
+    }
+}

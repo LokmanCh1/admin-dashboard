@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main{
+  font-family: "Inter", sans-serif;
+  color: aliceblue;
+  background-color: rgb(34, 52, 72); 
+  height: 100vh;
+}
+.container{
+  display: flex;
+}
+
+.menuContainer{
+  width: 250px;
+  padding: 5px 20px;
+  border-right: 1px solid rgba(103, 106, 110, 0.614);
+}
+
+.contentContainer{
+  padding: 5px 20px;
+  width: 100%;
+}

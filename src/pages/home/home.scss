@@ -1,0 +1,25 @@
+.home{
+
+    display: grid;
+    gap: 20px;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(120px, auto);
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(75, 84, 125, 0.751);
+}
+.box1{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.box4{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.box7{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+}
